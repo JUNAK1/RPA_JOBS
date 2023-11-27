@@ -37,8 +37,7 @@ browser.get("http://ceadmclaro.clarochile.cl/indexTLV.html")
 
 
 
-username_cu = "120495399"
-password_cu = "JB9539"
+
 try:
     # Esperar y escribir en el campo de usuario
         WebDriverWait(browser, 5).until(EC.presence_of_element_located((By.XPATH, "//*[@id='username']")))
